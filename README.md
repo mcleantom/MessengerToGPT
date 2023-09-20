@@ -17,7 +17,7 @@ conda create -n MessengerToGPT python==3.10
 conda activate MessengerToGPT
 ```
 
-4. Install the requirements:
+4. Install the requirements (the only requirement is torch):
 ```
 pip install -r requirements.txt
 ```
@@ -37,4 +37,46 @@ First, go into `model.py` and change the `message_file` variable to the value of
 Also change `initial_message` to whatever you want the initial seed to be. Then, run: 
 ```
 python model.py
+```
+Example output:
+
+```
+Cameron Owens:
+Eat sleep meme repeat
+
+Tom McLean:
+Trying to find my meme stash
+
+Cameron Owens:
+😂😂😂😂
+
+Cameron Owens:
+Memes are my high
+
+Cameron Owens:
+Church
+
+Tom McLean:
+Top meme
+
+Cameron Owens:
+I'm in love with the coco
+
+Tom McLean:
+Do you have the data from the S2 lab?
+
+Cameron Owens:
+I might
+
+Cameron Owens:
+Will need memes in exchange though
+
+Cameron Owens:
+And they better be really ironic
+
+Tom McLean:
+I have some pretty dank ones
+
+Tom McLean:
+Deal.
 ```
